@@ -30,5 +30,7 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-data-mongodb-reactive')
     compile('org.springframework.boot:spring-boot-starter-webflux')
     compile "org.projectlombok:lombok:1.16.18"
+    compile "org.springframework:spring-web"
+    compile "com.fasterxml.jackson.core:jackson-databind"
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }

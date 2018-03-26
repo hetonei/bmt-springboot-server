@@ -13,6 +13,6 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class User {
     @Id
     private String id;
-    private String Username;
-    private int Rank;
+    private String username;
+    private int rank;
 }

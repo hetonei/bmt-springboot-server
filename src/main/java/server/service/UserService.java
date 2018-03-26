@@ -5,7 +5,8 @@ import reactor.core.publisher.Mono;
 import server.domain.User;
 
 public interface UserService {
-    Flux<User> get();
-    Mono<User> save(User user);
-    Flux<User> getByUsername(final String username);
+    Flux<User> GetAll();
+    Mono<User> Register(String username);
+    Mono<User> LogIn(String username);
+    Mono<User> Update(String id, String name);
 }
